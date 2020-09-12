@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+      <title> Raj Cake Company</title>
+        <head>
+          <meta charset="utf-8">
+          <script src="https://kit.fontawesome.com/29efeb0951.js" crossorigin="anonymous"></script>
+          <script src="complete.js"></script>
+          <link rel="stylesheet" href="complete.css">
+       </head>
+       <body>
+         
+            <div class="top">
+              <h2>Raj Cake company   <i class="fas fa-birthday-cake"></i></h2>
+            </div>
+            <div class="main">  
+              <div class="para">
+                <p>Cake Baking is truly the finest among food art. It has evolved over the years by adopting various scientific procedures. An irresistible piece of cake demands exact proportions of ingredients and perfectly timed steps that make baking seem almost like science class. Just bake aims not only at satisfying your sweet tooth but also to make visually delightful and the smoothest, lightest, fluffiest desserts on the planet. When you sink your teeth into one of our wonderful cakes, you will definitely be transported to another world where delicious pastry and silky cream combine to melt in your mouth like magic.</p>
+                <p> Get best cakes on time here.Raj cake company (RCC) has wast experience in cake production.Birthdays, Anniversaries, Parties, you name it! Just Bake is the right place for all your custom made confectionery needs. Our signature cakes are widely popular for their rich creamy taste and abundant use of fresh fruits and nuts.</p>
+              </div>
+            
+              <div class="box">
+                 <p style=" font-size: 22px;text-align:center">Order Now!</p>
+                  <form name="Mform" >
+                   <p>Name:</p>
+                       <input id="name" type="text" onblur="checkname();" style="font-size:16px" placeholder="2-8 character" min="2" autofocus  required/><span id="nmsg"></span><br>
+                   <p>Email</p>
+                     <input type="email" id="mail" style="font-size:16px" placeholder="@gmail.com" required><br>
+                   <p>Contact no.</p>
+                     <input type="number" id="number"style="font-size:16px" placeholder=" Enter valid number" onblur="checkno();" min="0" required/><span id="pmsg"></span><br>
+                   <p>Select Flavour:</p><br>
+                    <select id="flvr" >
+                    <option  value="Chocolate">Choclate cake</option>
+                    <option  value="Caramel">Caramel cake</option>
+                    <option value="Butter">Butter cake</option>
+                    <option  value="Fruit">Fruit cake</option>
+                    </select>
+                    <p>Date of delivery</p>
+                       <input type="date" id="dat" min="2020-3-3" max="2020-10-30"required><br><br><br>
+                    <div style="font-weight:bold">Quantity</div>
+                     <input id='qt' type=number min="1" max="5" required><br><br><br>
+                   <div style="font-weight:bold">Message on cake (optional)</div><br><br>
+                     <textarea id="area" placeholder=" max 20 characters" maxlength="20" ></textarea><br><br>
+                       <input type="submit" value="Click to order" style="font-size:16px;" id ="btn" onclick="display()">
+                    <p id="paad"></p>
+                  </form>
+                </div>
+          
+         </div>
+      </body>
+</html>

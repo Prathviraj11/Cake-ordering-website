@@ -1,0 +1,83 @@
+
+/*  css class main with background image */
+.main{
+  height:1100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  position: absolute;
+  
+}
+
+/*class for heading of page*/
+.top{
+  
+  height:50px;
+  background-color:rgba(0, 200, 250, 0.5);
+  text-align: center;
+  padding: 20px;
+}
+.para{
+  background-color: white;
+}
+.para::select{
+  background-color:black;
+}
+/*cake order form box */
+.box{
+  line-height: 10px;
+  padding:10px 30px;
+  background-color: rgba(0, 150, 100, 0.5);
+  box-sizing:border-box;
+  border-radius: 10px;
+  background-position: center;
+  width:400px;
+  height:650px;
+  color: #000;
+  position: absolute;
+  top:15%;
+  left: 35%;
+  /*transform: translate(-50%,-50%); */
+}
+
+.box p{
+  margin: 0;
+  padding-top: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+/*This class is used to format style of input forms*/
+.box input[type="text"],[type="email"],[type="date"],[type="number"]{
+  border:none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+ 
+  width:50%;
+}
+#area{
+  height:60px;
+  width:60%;
+  border-radius: 10px;
+
+}
+/*clss to format submit button*/
+#btn{
+  border:none;
+  outline: none;
+  border-radius: 20px;
+  height:40px;
+  background: blue;
+  color: skyblue;
+  font-size: 10px;
+  width:100%;
+  opacity:0.5;
+}
+#btn:hover{
+  color:#fff;
+  opacity:1;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
