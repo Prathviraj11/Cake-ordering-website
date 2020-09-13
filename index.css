@@ -12,18 +12,16 @@ body{
   background-image: url("Background_img.jpg");
   background-size: cover;
 }
-
 /*class for heading of page*/
 .top{
-  
   height:50px;
   background-color:rgba(0, 200, 250, 0.5);
   text-align: center;
   padding: 20px;
 }
-
 .para{
   background-color: white;
+  padding: 10px;
 }
 .para::select{
   background-color:black;
@@ -40,11 +38,9 @@ body{
   height:650px;
   color: #000;
   position: absolute;
-  top:15%;
+  top:20%;
   left: 35%;
-  /*transform: translate(-50%,-50%); */
 }
-
 .box p{
   margin: 0;
   padding-top: 20px;
@@ -58,14 +54,12 @@ body{
   background: transparent;
   outline: none;
   height: 40px;
- 
   width:50%;
 }
 #area{
   height:60px;
   width:60%;
   border-radius: 10px;
-
 }
 /*clss to format submit button*/
 #btn{
