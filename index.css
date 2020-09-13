@@ -1,4 +1,7 @@
-
+body{
+  margin: 0;
+  padding:0;
+}
 /*  css class main with background image */
 .main{
   height:1100px;
@@ -6,7 +9,8 @@
   background-size: contain;
   width:100%;
   position: absolute;
-  
+  background-image: url("Background_img.jpg");
+  background-size: cover;
 }
 
 /*class for heading of page*/
@@ -17,6 +21,7 @@
   text-align: center;
   padding: 20px;
 }
+
 .para{
   background-color: white;
 }
