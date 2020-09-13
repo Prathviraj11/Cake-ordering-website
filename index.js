@@ -4,12 +4,12 @@ function checkname(){
       var rel=/^[a-zA-Z\s\'\-]{2,15}$/;
           if(rel.test(nam)){
               document.getElementById("nmsg").style.color="yellow";
-              document.getElementById("nmsg").innerHTML="<strong>Valid</strong>";
+              document.getElementById("nmsg").innerHTML="<strong>  Valid </strong>";
               return true;
             }
           else{
               document.getElementById("nmsg").style.color="red";
-              document.getElementById("nmsg").innerHTML="<strong>    Enter 2-15 character</strong>";
+              document.getElementById("nmsg").innerHTML="<strong>   Enter 2-15 character </strong>";
               return false;
             }
 }
@@ -19,12 +19,12 @@ function checkno(){
       var rel=/^\d{10}$/;
           if(rel.test(pho)){
               document.getElementById("pmsg").style.color="green";
-              document.getElementById("pmsg").innerHTML="<strong>Valid</strong>";
+              document.getElementById("pmsg").innerHTML="<strong> Valid </strong>";
               return true;
             }
           else{
               document.getElementById("pmsg").style.color="red";
-              document.getElementById("pmsg").innerHTML="<strong>  Enter 10 digits</strong>";
+              document.getElementById("pmsg").innerHTML="<strong>  Enter 10 digits </strong>";
               return false;
             }
 }
