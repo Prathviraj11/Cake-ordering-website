@@ -1,3 +1,6 @@
+const form = document.querySelector('#Mform');
+
+
 //function to validate name
 function checkname(){
       var nam=document.getElementById('name').value;
@@ -29,6 +32,16 @@ function checkno(){
             }
 }
 
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  db.collection('orders').add({
+      name: form.name.value,
+      email: form.email.value
+  });
+  form.name.value = '';
+  form.city.value = '';
+});
 //function to display order details
 
 function display(){
